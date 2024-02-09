@@ -1,0 +1,139 @@
+body {
+  background-color: #535252;
+}
+
+.buttonClassName {
+  float: right;
+}
+
+#header {
+  background-color: #535252;
+  color: #fff;
+  padding: 20px;
+  height: 70px;
+  text-align: center;
+}
+
+#bicho {
+  float: right;
+  height: 100px;
+  border-radius: 100%;
+  margin-top: -70px;
+  margin-right: 40px;
+  animation: spin 2s linear infinite;
+}
+
+#info {
+  background-color: #fff;
+  box-shadow: #535252;
+  border-radius: 7px;
+  height: 500px;
+}
+
+#fotoUsuario {
+  float: right;
+  height: 460px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+#header h1 {
+  margin: 0;
+  margin-top: 25px;
+}
+
+p {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+video {
+  border-radius: 7px;
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#pie {
+  color: #fff;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.link {
+  color: #fff;
+}
+
+#contacto {
+  color: #000000;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.lista {
+  background-color: #fff;
+  width: 100px;
+  border-radius: 7px;
+}
+
+.tw-followCard-button {
+  margin-top: 2px;
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  border: 1px solid #000;
+  transition: .3s ease background-color;
+}
+
+.tw-followCard-button:hover {
+  opacity: .8;
+}
+
+.tw-followCard-text {
+  display: block;
+}
+
+.tw-followCard-button.is-following {
+  border: 1px solid #bbb;
+  background: transparent;
+  color: #fff;
+  width: 140px;
+}
+
+.tw-followCard-button.is-following:hover {
+  background-color: rgba(255, 0, 0, 0.178);
+  color: red;
+  border: 1px solid red;
+  transition: .3s ease all;
+  opacity: 1;
+}
+
+.tw-followCard-button.is-following:hover .tw-followCard-text {
+  display: none;
+}
+
+.tw-followCard-button.is-following:hover .tw-followCard-stopFollow {
+  display: block;
+}
+
+.tw-followCard-stopFollow {
+  display: none;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
